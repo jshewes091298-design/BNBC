@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BNBC - Meme Coin</title>
+    <title>BNBC - Community-Driven Meme Token</title>
     <meta
       name="description"
-      content="BNBC is the heavyweight meme coin of the internet. Join the community on Pump.fun, X and Telegram."
+      content="BNBC is a community-driven meme token focused on long-term sustainability, transparency, and fair participation."
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,6 +18,7 @@
   </head>
   <body>
     <div class="page">
+      <a class="skip-link" href="#main">Skip to content</a>
       <header class="site-header">
         <div class="logo-wrap">
           <div class="logo-circle">
@@ -25,111 +26,666 @@
           </div>
           <div class="logo-text">
             <span class="logo-name">BNBC</span>
-            <span class="logo-tagline">The Heaviest Meme on Pump.fun</span>
+            <span class="logo-tagline">Community-first. Long-term focused.</span>
           </div>
         </div>
-        <nav class="nav-links">
+        <nav class="nav-links" aria-label="Primary">
           <a href="#about">About</a>
-          <a href="#roadmap">Roadmap</a>
-          <a href="#community">Community</a>
+          <a href="#launch">Launch</a>
+          <a href="#security">Security</a>
+          <a href="#official">Official Links</a>
         </nav>
       </header>
 
-      <main>
+      <main id="main">
         <!-- HERO -->
-        <section class="hero">
+        <section class="hero" id="hero" aria-label="BNBC overview">
           <div class="hero-content">
-            <h1>
-              BNBC
-              
-            </h1>
+            <h1>BNBC</h1>
             <p class="hero-subtitle">
-              Community-driven meme coin built for long-term holders.
+              A calm, community-driven meme token built for long-term
+              sustainability, transparent execution, and fair participation.
             </p>
 
             <div class="hero-cta">
-              <a
-                class="btn primary"
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Launch on Pump.fun
-              </a>
+              <a class="btn primary" href="#official">Official links</a>
               <a
                 class="btn ghost"
                 href="https://x.com/bignigabuttcoin?s=21"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View on X (Twitter)
+                Follow on X
               </a>
             </div>
 
-            <div class="hero-meta">
+            <div class="hero-meta" aria-label="Token overview preview">
               <div class="meta-item">
-                <span class="meta-label">Symbol</span>
-                <span class="meta-value">$BNBC</span>
+                <span class="meta-label">Token</span>
+                <span class="meta-value">BNBC</span>
               </div>
               <div class="meta-item">
-                <span class="meta-label">Chain</span>
-                <span class="meta-value">Solana</span>
+                <span class="meta-label">Network</span>
+                <span class="meta-value">To be announced</span>
               </div>
               <div class="meta-item">
-                <span class="meta-label">Launch Date</span>
-                <span class="meta-value online">4/10/2026</span>
+                <span class="meta-label">Status</span>
+                <span class="meta-value online">Preparing public launch</span>
               </div>
             </div>
-            <div class="launch-notice">
+
+            <div class="notice" role="note" aria-label="Not financial advice">
               <p>
-                <strong>Coin drop is scheduled for 4/10/2026</strong> — early
-                participation can give you a prime spot on pump.fun
+                <strong>Disclaimer:</strong> This website is for informational
+                purposes only and does not constitute financial advice. Crypto
+                assets are high risk; you may lose some or all of your funds.
               </p>
             </div>
           </div>
 
-          <div class="hero-art">
+          <div class="hero-art" aria-hidden="true">
             <div class="hero-image-frame">
-              <img src="assets/mascot.png" alt="BNBC mascot" />
+              <img src="assets/mascot.png" alt="" />
             </div>
             <div class="hero-glow"></div>
           </div>
         </section>
 
         <!-- ABOUT -->
-        <section id="about" class="section about">
-          <div class="section-header">
-            <h2>About</h2>
-          </div>
-          <div class="about-grid">
-            <div class="about-card">
-              <h3>Community Driven</h3>
+        <section id="about" class="section">
+          <header class="section-header">
+            <h2>About BNBC</h2>
+            <p>
+              BNBC is a community-driven meme token designed to prioritize
+              long-term trust over short-term attention.
+            </p>
+          </header>
+
+          <div class="cards grid-2">
+            <article class="card">
+              <h3>What BNBC is</h3>
               <p>
-                BNBC isn't just a token — it's a growing community where every
-                member has a voice.
+                A meme token built with a “whitepaper-lite” approach: clear
+                principles, transparent execution, and community-first growth.
               </p>
-            </div>
-            <div class="about-card">
-              <h3>Long-Term Focus</h3>
+            </article>
+
+            <article class="card">
+              <h3>Vision</h3>
               <p>
-                Carefully designed to reward long-term holders while preventing
-                short-term market manipulation.
+                Build a durable community asset that can outlast hype cycles
+                through honest communication and responsible coordination.
               </p>
-            </div>
+            </article>
+
+            <article class="card">
+              <h3>Mission</h3>
+              <p>
+                Ship a fair, understandable launch and operate with progressive
+                transparency across liquidity actions, lockups, and updates.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Community-first philosophy</h3>
+              <p>
+                BNBC is shaped by its members. Feedback, proposals, and
+                governance are designed to expand over time—without rushing
+                decentralization promises.
+              </p>
+            </article>
           </div>
         </section>
 
-        <!-- ROADMAP -->
-        <section id="roadmap" class="section roadmap">
-          <div class="roadmap-image">
+        <!-- TOKEN OVERVIEW -->
+        <section id="token" class="section">
+          <header class="section-header">
+            <h2>Token Overview</h2>
+            <p>
+              The token model is designed to be fixed and transparent. Full
+              tokenomics will be published before any public launch.
+            </p>
+          </header>
+
+          <div class="cards grid-2">
+            <article class="card">
+              <h3>Token type</h3>
+              <p>Community token with a simple, audit-friendly structure.</p>
+            </article>
+            <article class="card">
+              <h3>Supply model</h3>
+              <p>Fixed supply with public disclosures (no hidden surprises).</p>
+            </article>
+            <article class="card">
+              <h3>Distribution</h3>
+              <p>Community-focused distribution aligned with fair access.</p>
+            </article>
+            <article class="card">
+              <h3>Tokenomics</h3>
+              <p>
+                Released before launch via official channels only (see Official
+                Communication).
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <!-- LIQUIDITY STRATEGY -->
+        <section id="liquidity" class="section">
+          <header class="section-header">
+            <h2>Liquidity Strategy</h2>
+            <p>
+              BNBC aims to reduce volatility from sudden liquidity changes by
+              prioritizing gradual deployment and clear communication.
+            </p>
+          </header>
+
+          <div class="cards grid-2">
+            <article class="card">
+              <h3>Gradual deployment</h3>
+              <p>
+                Liquidity actions are planned to avoid sudden supply shocks and
+                minimize avoidable market disruption.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Transparency first</h3>
+              <p>
+                Liquidity decisions will be announced in advance when possible,
+                documented after execution, and linked through official
+                channels.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Monitoring</h3>
+              <p>
+                Ongoing monitoring for liquidity health, unusual activity, and
+                market conditions—without making price promises.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Communication policy</h3>
+              <p>
+                The community is kept informed with clear updates and
+                decision-rationales, especially during sensitive windows.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <!-- FAIR LAUNCH / ANTI-DUMP -->
+        <section id="fair-launch" class="section">
+          <header class="section-header">
+            <h2>Anti-Dump & Fair Launch Measures</h2>
+            <p>
+              The goal is fair participation and long-term alignment—not short
+              bursts of attention that harm the community.
+            </p>
+          </header>
+
+          <div class="cards grid-2">
+            <article class="card">
+              <h3>Allocation limits</h3>
+              <p>
+                Participation rules may include per-wallet limits to reduce
+                concentration and discourage opportunistic behavior.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Gradual release considerations</h3>
+              <p>
+                Release mechanics are designed to avoid sudden supply shocks and
+                reduce incentives for coordinated dumping.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Anti-bot considerations</h3>
+              <p>
+                BNBC will apply reasonable anti-bot measures and verification
+                where appropriate, without excluding legitimate users.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Fair participation rules</h3>
+              <p>
+                Clear rules, consistent enforcement, and updates through
+                official channels only.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <!-- LAUNCH PHASES -->
+        <section id="launch" class="section">
+          <header class="section-header">
+            <h2>Launch Phases</h2>
+            <p>A step-based plan designed for stability and accountability.</p>
+          </header>
+
+          <ol class="steps" aria-label="Launch phases">
+            <li class="step">
+              <h3>Whitelist & Early Community Phase</h3>
+              <p>
+                Verification and participation rules are published in advance.
+                The focus is fairness, not speed.
+              </p>
+            </li>
+            <li class="step">
+              <h3>Public Launch Phase</h3>
+              <p>
+                Clear disclosures, official links only, and communication around
+                liquidity actions and safety checks.
+              </p>
+            </li>
+            <li class="step">
+              <h3>Ecosystem Expansion Phase</h3>
+              <p>
+                Partnerships and integrations are pursued only when confirmed
+                and community-aligned.
+              </p>
+            </li>
+            <li class="step">
+              <h3>Governance & Utility Rollout</h3>
+              <p>
+                Community proposals and voting mechanisms evolve gradually, with
+                a focus on clarity and security.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- VESTING & LOCKUPS -->
+        <section id="vesting" class="section">
+          <header class="section-header">
+            <h2>Vesting & Lockups</h2>
+            <p>
+              Lockups and vesting are designed to align incentives and reduce
+              avoidable instability.
+            </p>
+          </header>
+
+          <div class="cards grid-2">
+            <article class="card">
+              <h3>Team & development lockups</h3>
+              <p>
+                Any team or development allocations (if applicable) will be
+                locked with clear terms.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Gradual vesting</h3>
+              <p>
+                Vesting schedules aim to reduce sudden supply impact and support
+                long-term operations.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Public disclosure</h3>
+              <p>
+                Vesting schedules will be disclosed publicly before launch and
+                updated through official channels.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Market stability focus</h3>
+              <p>
+                No profit guarantees—only a commitment to predictable, disclosed
+                mechanics.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <!-- AIRDROP -->
+        <section id="airdrop" class="section">
+          <header class="section-header">
+            <h2>Airdrop Program</h2>
+            <p>
+              Airdrops (if/when announced) are designed to reward real
+              community participation, not automation.
+            </p>
+          </header>
+
+          <div class="cards grid-2">
+            <article class="card">
+              <h3>Objectives</h3>
+              <p>Reward meaningful contributions and long-term alignment.</p>
+            </article>
+            <article class="card">
+              <h3>Eligibility criteria</h3>
+              <p>
+                Criteria will be announced publicly ahead of any snapshot and
+                applied consistently.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Fair distribution rules</h3>
+              <p>
+                Designed to avoid concentration. No special access through
+                unofficial intermediaries.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Anti-bot policy</h3>
+              <p>
+                One wallet per participant, verification where appropriate, and
+                public snapshot announcements.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <!-- WHITELIST -->
+        <section id="whitelist" class="section">
+          <header class="section-header">
+            <h2>Whitelist Program</h2>
+            <p>
+              The whitelist (if used) is for early community members who help
+              build responsibly—without hype incentives.
+            </p>
+          </header>
+
+          <div class="cards grid-2">
+            <article class="card">
+              <h3>Benefits</h3>
+              <p>
+                Clear participation rules and early access to verified
+                information.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Eligibility</h3>
+              <p>
+                Community participation, contribution, and verification aligned
+                with anti-bot policy.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Verification steps</h3>
+              <p>
+                Steps will be posted in official channels only; avoid DMs and
+                impersonators.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Announcement policy</h3>
+              <p>
+                Any whitelist announcement is valid only if posted via official
+                links below.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <!-- TOKEN ALLOCATION (PREVIEW) -->
+        <section id="allocation" class="section">
+          <header class="section-header">
+            <h2>Token Allocation (Preview)</h2>
+            <p>
+              Categories only. Percentages and full details will be disclosed
+              before public launch.
+            </p>
+          </header>
+
+          <ul class="pill-list" aria-label="Allocation categories">
+            <li>Community & Ecosystem</li>
+            <li>Liquidity</li>
+            <li>Development & Operations</li>
+            <li>Partnerships & Incentives</li>
+          </ul>
+        </section>
+
+        <!-- GOVERNANCE -->
+        <section id="governance" class="section">
+          <header class="section-header">
+            <h2>Governance (Future Phase)</h2>
+            <p>
+              Governance is planned as a gradual progression—built on clear
+              proposals, transparent discussion, and secure voting.
+            </p>
+          </header>
+
+          <div class="cards grid-2">
+            <article class="card">
+              <h3>Community proposals</h3>
+              <p>
+                Members can submit proposals and discuss scope, risks, and
+                trade-offs.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Voting</h3>
+              <p>
+                Voting on initiatives evolves over time, prioritizing clarity,
+                security, and participation integrity.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <!-- DEVELOPMENT UPDATES -->
+        <section id="updates" class="section">
+          <header class="section-header">
+            <h2>Development Updates</h2>
+            <p>
+              Updates focus on technical progress, community milestones, and
+              confirmed partnerships only.
+            </p>
+          </header>
+
+          <div class="cards grid-2">
+            <article class="card">
+              <h3>Roadmap updates</h3>
+              <p>
+                The roadmap is a living document and may change based on
+                security considerations and community feedback.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Technical improvements</h3>
+              <p>
+                Contract clarity, monitoring, documentation, and operational
+                reliability.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Community milestones</h3>
+              <p>
+                Participation, guidelines enforcement, and transparent decision
+                making.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Partnerships</h3>
+              <p>Only announced when confirmed and verifiable.</p>
+            </article>
+          </div>
+
+          <figure class="roadmap-image">
             <img src="assets/roadmap.png" alt="BNBC roadmap" />
+            <figcaption class="caption">
+              Roadmap overview (subject to change based on security and
+              technical requirements).
+            </figcaption>
+          </figure>
+        </section>
+
+        <!-- PARTNERSHIPS -->
+        <section id="partnerships" class="section">
+          <header class="section-header">
+            <h2>Partnerships & Integrations</h2>
+            <p>
+              BNBC pursues value-based partnerships with community-aligned
+              projects and infrastructure collaborators.
+            </p>
+          </header>
+
+          <div class="cards grid-2">
+            <article class="card">
+              <h3>Value-based only</h3>
+              <p>
+                Partnerships are evaluated on alignment, user benefit, and
+                long-term durability.
+              </p>
+            </article>
+            <article class="card">
+              <h3>No premature announcements</h3>
+              <p>
+                BNBC does not announce integrations until they are confirmed and
+                verifiable.
+              </p>
+            </article>
           </div>
         </section>
 
-        <!-- COMMUNITY -->
-        <section id="community" class="section community">
-          <div class="section-header">
-            <h2>Community</h2>
+        <!-- COMMUNITY GUIDELINES -->
+        <section id="guidelines" class="section">
+          <header class="section-header">
+            <h2>Community Guidelines</h2>
+            <p>
+              We aim to build a respectful, collaborative community with clear
+              standards.
+            </p>
+          </header>
+
+          <div class="cards grid-2">
+            <article class="card">
+              <h3>Core values</h3>
+              <ul class="list">
+                <li>Transparency</li>
+                <li>Respect</li>
+                <li>Collaboration</li>
+                <li>Long-term thinking</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Zero tolerance</h3>
+              <ul class="list">
+                <li>Scams and impersonation</li>
+                <li>Abuse and harassment</li>
+                <li>Misinformation and fake links</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <!-- TEAM & OPERATIONS -->
+        <section id="team" class="section">
+          <header class="section-header">
+            <h2>Team & Operations</h2>
+            <p>
+              BNBC is operated by a core team with defined responsibilities and
+              progressive transparency.
+            </p>
+          </header>
+
+          <div class="cards grid-2">
+            <article class="card">
+              <h3>Core team structure</h3>
+              <p>
+                Defined roles across development, operations, community, and
+                partnerships.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Accountability</h3>
+              <p>
+                Decisions are communicated clearly, with documentation where
+                possible and consistent enforcement of policies.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Progressive transparency</h3>
+              <p>
+                As BNBC matures, operational disclosures expand without
+                compromising user safety.
+              </p>
+            </article>
+            <article class="card">
+              <h3>No single point of control</h3>
+              <p>
+                The long-term goal is resilient operations and distributed
+                decision making.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <!-- SECURITY & RISK -->
+        <section id="security" class="section">
+          <header class="section-header">
+            <h2>Security & Risk Disclosure</h2>
+            <p>
+              Security is a process. BNBC prioritizes simple, clear mechanisms
+              and explicit risk disclosure.
+            </p>
+          </header>
+
+          <div class="cards grid-2">
+            <article class="card">
+              <h3>No hidden mint</h3>
+              <p>
+                The contract design aims to avoid hidden mint functionality and
+                keep logic easy to verify.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Clear contract logic</h3>
+              <p>
+                Preference for straightforward features that reduce ambiguity
+                and operational risk.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Liquidity monitoring</h3>
+              <p>
+                Monitoring and communication around liquidity health and unusual
+                activity—without price promises.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Risk disclaimer</h3>
+              <p>
+                No profit guarantees. Always verify links, read disclosures, and
+                assess risk independently.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <!-- OFFICIAL COMMUNICATION -->
+        <section id="official" class="section">
+          <header class="section-header">
+            <h2>Official Communication</h2>
+            <p>
+              Only the official channels listed here are valid. Always verify
+              links and ignore unsolicited DMs.
+            </p>
+          </header>
+
+          <div class="official-grid">
+            <a class="official-link" href="#hero" aria-label="Website">
+              <span class="official-label">Website</span>
+              <span class="official-value">This page</span>
+            </a>
+            <a
+              class="official-link"
+              href="https://t.me/+JgREuq04v8MyOTM5"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="official-label">Telegram</span>
+              <span class="official-value">t.me/+JgREuq04v8MyOTM5</span>
+            </a>
+            <a
+              class="official-link"
+              href="https://x.com/bignigabuttcoin?s=21"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="official-label">X (Twitter)</span>
+              <span class="official-value">@bignigabuttcoin</span>
+            </a>
           </div>
 
           <div class="community-links">
@@ -147,14 +703,14 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              Follow on X (Twitter)
+              Follow on X
             </a>
           </div>
 
           <div class="disclaimer">
             <p>
-              Disclaimer: BNBC is a meme coin and should be treated as such.
-              Nothing on this website is financial advice. Always do your own
+              Disclaimer: Nothing on this website is financial advice. BNBC is
+              community-driven and experimental by nature. Always do your own
               research and never invest more than you can afford to lose.
             </p>
           </div>
